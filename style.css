@@ -1,0 +1,16 @@
+#h1 { color:  #663399; }
+
+#paragraph1::first-letter {
+    color: rgb(132, 0, 165);
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+
+  #paragraph1 {
+    text-indent: 50px;
+  }
+
+.paragraph2 {
+  text-indent: 50px;
+}
