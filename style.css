@@ -84,3 +84,8 @@ h1 {
   background-color: lightgray;
   width: 100
 }
+
+@media screen and (min-width: 200px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
