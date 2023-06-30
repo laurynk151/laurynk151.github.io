@@ -39,7 +39,7 @@ body {
 
 .page-title {
   grid-row: 1/2;
-  text-align: center;
+  text-align: right;
   padding: 10px;
   font-size: 36px;
 }
