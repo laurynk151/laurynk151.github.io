@@ -31,6 +31,14 @@ body {
   height: 100vh; /* If you want the grid to fill the viewport height */
 }
 
+
+.site1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  height: 50vh; /* If you want the grid to fill the viewport height */
+} 
+
 .page-title,
 .masthead,
 .footer {
@@ -39,7 +47,7 @@ body {
 
 .page-title {
   grid-row: 1/2;
-  text-align: right;
+  text-align: center;
   padding: 10px;
   font-size: 36px;
 }
