@@ -99,7 +99,10 @@ h1 {
   background-color: lightgray;
 }
 
-
+@font-face{
+font-family: opensans
+src:url ("OpenSans-VariableFont_wdth,wght.ttf")
+}
 @media only screen and (max-width: 640px) {
   .page-title {
     grid-row: 1/2;
