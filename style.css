@@ -31,14 +31,6 @@ body {
   height: 100vh; /* If you want the grid to fill the viewport height */
 }
 
-
-.site1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto 1fr auto;
-  height: 50vh; /* If you want the grid to fill the viewport height */
-} 
-
 .page-title,
 .masthead,
 .footer {
@@ -68,6 +60,7 @@ body {
   grid-row: 3/4;
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
 
 .footer {
@@ -90,10 +83,31 @@ h1 {
 
 .green, .red, .blue, .yellow, .purple {
   background-color: lightgray;
-  width: 100
 }
 
-@media screen and (min-width: 200px) {
-    #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
+
+@media only screen and (max-width: 640px) {
+  .page-title {
+    grid-row: 1/2;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
   }
+
+  .masthead {
+    font-size: 14px;  
+
+  }
+
+  .masthead #mobilehide {
+    display: none;
+  }
+
+  .main-content {
+    font-size: 14px;
+  }
+
+  .sidebar {
+    font-size: 14px;
+  
+}}
