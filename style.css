@@ -125,7 +125,16 @@ h1 {
   
   }
 
+a[href^="https:"] ::after {
+  content: "["attr(href)"]";
+  color: blue;
+
 }
+
+}
+
+
+
 
 @media only screen and (max-width: 640px) {
   .page-title {
