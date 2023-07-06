@@ -125,6 +125,12 @@ a[href^="http:"] ::after {
   color: blue;
 }
 
+#h1 {color: black;}
+
+#paragraph1::first-letter {
+    color:black;
+  }
+
   @page {
     margin: 1.0in;
   }
