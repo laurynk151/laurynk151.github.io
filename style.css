@@ -1,3 +1,8 @@
+@font-face{
+  font-family: inter;
+  src:url ("Inter-VariableFont_slnt,wght.ttf")
+  }
+
 #h1 { color:  #663399; }
 
 #paragraph1::first-letter {
@@ -99,6 +104,28 @@ h1 {
   background-color: lightgray;
 }
 
+@media only print { 
+ * {
+  background: transparent;
+  color: black;
+  box-shadow: none;
+  text-shadow: none;
+  }
+
+  .masthead {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  @page {
+    margin: 1.0in;
+  
+  }
+
+}
 
 @media only screen and (max-width: 640px) {
   .page-title {
