@@ -122,9 +122,9 @@ h1 {
   text-shadow: none;
   }
 
-  .page-title{
-  color: #000;
-}
+.page-title::after{
+    color: black;
+  }
   .masthead {
     display: none;
     font-size: 15px;
