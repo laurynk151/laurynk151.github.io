@@ -1,6 +1,7 @@
 @font-face{
   font-family: sanchez;
   src:url ("Sanchez-Regular.ttf")
+  font-size: 16px;
   }
 
 #h1 { color:  #663399; }
