@@ -1,6 +1,6 @@
 @font-face{
-  font-family: inter;
-  src:url ("Inter-VariableFont_slnt,wght.ttf")
+  font-family: sanchez;
+  src:url ("Sanchez-Regular.ttf")
   }
 
 #h1 { color:  #663399; }
@@ -111,7 +111,7 @@ h1 {
 
 .ulmargin{
   text-indent: 15px;
-  font-size: 15;
+  font-size: 15px;
 }
 
 @media only print { 
@@ -122,7 +122,7 @@ h1 {
   text-shadow: none;
   }
 
-.page-title{
+.page-title green{
   color:#000;
   }
 
@@ -152,9 +152,9 @@ h1 {
     font-size: 10px;
   }
 
-
-
-
+h1 {
+  color:#000
+}
 #paragraph1::first-letter {
     color:#000;
     font-size: 25px;
