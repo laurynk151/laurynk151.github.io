@@ -158,11 +158,11 @@ h1 {
     grid-row: 1/2;
     text-align: center;
     padding: 10px;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .masthead {
-    font-size: 14px;  
+    font-size: 8px;  
 
   }
 
@@ -171,18 +171,18 @@ h1 {
   }
 
   .main-content {
-    font-size: 14px;
+    font-size: 8px;
   }
 
   .main-content2 {
-    font-size: 14px;
+    font-size: 8px;
   }
   
   .main-content3 {
-    font-size: 14px;
+    font-size: 8px;
   }
 
   .sidebar {
-    font-size: 14px;
+    font-size: 8px;
   
 }}
