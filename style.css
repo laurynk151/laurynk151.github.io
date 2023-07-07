@@ -1,6 +1,6 @@
 @font-face{
-  font-family: sanchez;
-  src:url ("Sanchez-Regular.ttf")
+  font-family: inter;
+  src:url ("Inter-VariableFont_slnt,wght.ttf")
   }
 
 #h1 { color:  #663399; }
@@ -58,7 +58,6 @@ body {
   grid-row: 3/4;
   padding: 10px;
   margin: 10px;
-  font-size: 16px;
 }
 
 .main-content2 {
@@ -66,7 +65,6 @@ body {
   grid-row:4/6;
   padding: 10px;
   margin: 10px;
-  font-size: 16px;
 }
 
 .main-content3 {
@@ -74,7 +72,6 @@ body {
   grid-row:5/6;
   padding: 10px;
   margin: 10px;
-  font-size: 16px;
 }
 
 .sidebar {
@@ -83,7 +80,6 @@ body {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  font-size: 16px;
 }
 
 .footer {
@@ -122,16 +118,19 @@ h1 {
 
   .footer {
     text-align: center;
-  }  
-  
-  a::after{
-    content: " (https"attr(href) ") "; }
+  }
 
   @page {
     margin: 1.0in;
-  }
   
+  }
+
+  a::after{
+    content: " (https"attr(href) ") ";
+  }
+
 }
+
 
 
 
