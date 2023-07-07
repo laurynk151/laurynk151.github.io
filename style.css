@@ -128,7 +128,13 @@ h1 {
   
   }
 
+  #h1 { color:  black; }
 
+  #paragraph1::first-letter {
+      color:black;
+      font-size: 25px;
+      font-weight: bold;
+    }
   }
 
 }
