@@ -123,12 +123,36 @@ h1 {
   text-shadow: none;
   }
 
+  
   .masthead {
     display: none;
+    font-size: 10px;
   }
 
   .footer {
     text-align: center;
+  }
+
+  .main-content {
+    font-size: 8px;
+  }
+
+  .main-content2 {
+    font-size: 8px;
+  }
+  
+  .main-content3 {
+    font-size: 8px;
+  }
+
+  .sidebar {
+    font-size: 8px;
+#h1 { color:  #000; }
+
+#paragraph1::first-letter {
+    color:#000;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   @page {
@@ -138,14 +162,6 @@ h1 {
 
   a::after{
     content: " (https"attr(href) ") ";
-  }
-
-#h1 { color:  #000; }
-
-#paragraph1::first-letter {
-    color:#000;
-    font-size: 25px;
-    font-weight: bold;
   }
 
 }
@@ -183,6 +199,6 @@ h1 {
   }
 
   .sidebar {
-    font-size: 8px;
-  
+    font-size: 8px;  
+}
 }}
