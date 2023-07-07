@@ -122,10 +122,13 @@ h1 {
   text-shadow: none;
   }
 
-  
+  .page-title{
+  color: #000;
+}
   .masthead {
     display: none;
     font-size: 15px;
+    color: #000;
   }
 
   .footer {
@@ -148,9 +151,7 @@ h1 {
     font-size: 10px;
   }
 
-.page-title{
-  color: #000;
-}
+
 
 
 #paragraph1::first-letter {
