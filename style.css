@@ -87,6 +87,10 @@ body {
 
 
 .footer {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-flow: column wrap;
   grid-row: 4/5;
   background-image: url("../img/purplewatercolor.jpg");
   background-size: cover;
