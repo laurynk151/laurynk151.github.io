@@ -90,7 +90,7 @@ body {
   grid-row: 4/5;
 }
 
-.footer {
+#footer {
   background-image: url(laurynk151.github.io/img/purplewatercolor.jpg);
   background-position: center center;
   background-repeat: no-repeat;
