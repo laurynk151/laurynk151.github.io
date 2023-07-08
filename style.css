@@ -88,14 +88,10 @@ body {
 
 .footer {
   grid-row: 4/5;
+  background-image: url(    laurynk151.github.io/img/purplewatercolor.jpg)
+
 }
 
-#footer {
-  background-image: url(laurynk151.github.io/img/purplewatercolor.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 h1 {
   color:  #663399;
