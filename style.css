@@ -196,9 +196,10 @@ h1 {
       color: blue;
   }
 
+  .footer {
   a[href]:after {
     content: none !important;
-  }
+  }}
 
   .main-content {
     font-size: 12px;
@@ -225,6 +226,7 @@ h1 {
   img {
     max-width: 200px;
     height: auto;
+    text-align: center;
   }
 
 .videoresume {
