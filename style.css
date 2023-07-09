@@ -177,11 +177,18 @@ h1 {
     font-size: 15px;
     color: #000;
   }
-
+  
+  a[href^="https:"]::after {
+    content: " [" attr(href)"]";
+    color: blue;
+}
+ 
   .footer {
+    a[href]:after {
+    content: none !important;
     text-align: center;
     border: none;
-  }
+  }}
 
   .pic {
     display: none;
@@ -191,15 +198,7 @@ h1 {
     display: none;
   }
  
-  a[href^="https://"]::after {
-      content: " [" attr(href)"]";
-      color: blue;
-  }
-
-  .footer {
-  a[href]:after {
-    content: none !important;
-  }}
+ 
 
   .main-content {
     font-size: 12px;
