@@ -1,5 +1,5 @@
 @font-face{
-  font-family: sanchez;
+  font-family: Sanchez;
   src:url ("Sanchez-Regular.ttf")
   }
 
@@ -140,6 +140,24 @@ h1 {
 
 .pic:hover + .picbig{
   width:200px;
+}
+
+.pic {
+  width: 25px;
+  height: 25px;
+}
+
+.picbig {
+  position: absolute;
+  width: 0px;
+  -webkit-transition: width 0.3s linear 0s;
+  transition: width 0.3s linear 0s;
+  z-index:10;
+}
+
+.pic:hover + .picbig{
+  width:200px;
+  z-index: 11;
 }
 
 @media only print { 
