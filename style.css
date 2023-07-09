@@ -191,7 +191,7 @@ h1 {
     display: none;
   }
  
-  a[href^="https://laurynk151.github.io/Kamler_Resume_7355.pdf"]::after {
+  a[href^="https://"]::after {
       content: " [" attr(href)"]";
       color: blue;
   }
@@ -216,6 +216,11 @@ h1 {
     grid-row: 3/4;
     width: 200px;
     height: 200px;
+  }
+
+  img {
+    max-width: 200px;
+    height: auto;
   }
 
 .videoresume {
