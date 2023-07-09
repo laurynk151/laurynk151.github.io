@@ -196,6 +196,10 @@ h1 {
       color: blue;
   }
 
+  a[href]:after {
+    content: none !important;
+  }
+
   .main-content {
     font-size: 12px;
     grid-column: 1/2;
