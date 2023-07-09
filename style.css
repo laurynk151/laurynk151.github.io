@@ -183,6 +183,7 @@ h1 {
   }
 
   .main-content {
+    grid-column: 1/2;
     font-size: 12px;
   }
 
@@ -195,6 +196,7 @@ h1 {
   }
 
   .sidebar {
+    grid-column: 2/3;
     font-size: 10px;
   }
 
