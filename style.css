@@ -1,5 +1,5 @@
 @font-face{
-  font-family: Sanchez;
+  font-family: sanchez;
   src:url ("Sanchez-Regular.ttf")
   }
 
@@ -123,6 +123,22 @@ h1 {
 .ulmargin{
   text-indent: 15px;
   font-size: 15px;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+}
+
+.picbig {
+  position: absolute;
+  width: 0px;
+  -webkit-transition:width 0.3s linear 0s;
+  transition: width 0.3s linear 0s;
+}
+
+.pic:hover + .picbig{
+  width:200px;
 }
 
 @media only print { 
