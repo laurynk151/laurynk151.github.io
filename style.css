@@ -179,14 +179,14 @@ h1 {
   }
   
   a::after{
-    content: " (" attr(href) ") "; 
+    content: " (" attr(href="https:") ") "; 
     color: blue;
   }
- 
 
 
   .footer {
-    display: none
+    text-align: center;
+    border: none;
   }
 
   .pic {
@@ -219,13 +219,12 @@ h1 {
     grid-row: 3/4;
     width: 200px;
     height: 200px;
-    justify-content: center;
   }
 
   img {
     max-width: 200px;
     height: auto;
-    
+    text-align: center;
   }
 
 .videoresume {
