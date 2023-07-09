@@ -178,11 +178,13 @@ h1 {
     color: #000;
   }
   
-  a[href^="https:"]::after {
+  a[href^="https"]::after {
     content: " [" attr(href)"]";
     color: blue;
 }
  
+
+
   .footer {
     text-align: center;
     border: none;
