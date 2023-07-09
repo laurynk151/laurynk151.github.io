@@ -179,14 +179,13 @@ h1 {
   }
   
   a::after{
-    content: " (" attr(href="https") ") "; 
+    content: " (" attr(href) ") "; 
   }
  
 
 
   .footer {
-    text-align: center;
-    border: none;
+    display: none
   }
 
   .pic {
