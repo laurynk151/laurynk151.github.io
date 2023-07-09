@@ -210,7 +210,7 @@ h1 {
     font-size: 10px;
   }
 
-  .aside {
+  .sidebar {
     font-size: 12px;
     grid-column: 2/3;
     grid-row: 3/4;
@@ -275,5 +275,8 @@ h1 {
 
   .sidebar {
     font-size: 12px;  
+    width: 200px;
+    height: 200px;
+
 }
 }
