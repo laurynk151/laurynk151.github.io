@@ -184,11 +184,9 @@ h1 {
 }
  
   .footer {
-    a[href]:after {
-    content: none !important;
     text-align: center;
     border: none;
-  }}
+  }
 
   .pic {
     display: none;
