@@ -225,7 +225,7 @@ h1 {
   img {
     max-width: 200px;
     height: auto;
-    text-align: center;
+    justify-content: center;
   }
 
 .videoresume {
