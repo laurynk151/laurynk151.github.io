@@ -191,7 +191,7 @@ h1 {
     display: none;
   }
  
-  a[href^="https:"]::after {
+  a[href^="https://laurynk151.github.io/Kamler_Resume_7355.pdf"]::after {
       content: " [" attr(href)"]";
       color: blue;
   }
@@ -210,10 +210,12 @@ h1 {
     font-size: 10px;
   }
 
-  .sidebar {
+  .aside {
     font-size: 12px;
     grid-column: 2/3;
     grid-row: 3/4;
+    width: 200px;
+    height: 200px;
   }
 
 .videoresume {
