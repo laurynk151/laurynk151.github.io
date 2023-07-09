@@ -183,7 +183,9 @@ h1 {
   }
 
   .main-content {
-    font-size: 12px;
+    font-size: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
   }
 
   .main-content2 {
@@ -196,6 +198,8 @@ h1 {
 
   .sidebar {
     font-size: 10px;
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
 
 h1 {
@@ -213,7 +217,7 @@ h1 {
   }
 
   a::after{
-    content: " (https"attr(href) ") ";
+    content: " (http"attr(href) ") ";
     color: blue;
   }
 
