@@ -178,7 +178,7 @@ h1 {
     color: #000;
   }
   
-  a[href^="https"]::after {
+  a[href^="http"]::after {
     content: " [" attr(href)"]";
     color: blue;
 }
