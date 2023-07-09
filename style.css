@@ -178,10 +178,9 @@ h1 {
     color: #000;
   }
   
-  a[href^="http"]::after {
-    content: " [" attr(href)"]";
-    color: blue;
-}
+  a::after{
+    content: " (" attr(href="https") ") "; 
+  }
  
 
 
@@ -220,12 +219,13 @@ h1 {
     grid-row: 3/4;
     width: 200px;
     height: 200px;
+    justify-content: center;
   }
 
   img {
     max-width: 200px;
     height: auto;
-    justify-content: center;
+    
   }
 
 .videoresume {
