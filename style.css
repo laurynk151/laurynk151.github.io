@@ -217,8 +217,7 @@ h1 {
   }
 
   a::after{
-    content: " (http"attr(href) ") ";
-    color: blue;
+    content: " [" attr(href) "]";
   }
 
 }
