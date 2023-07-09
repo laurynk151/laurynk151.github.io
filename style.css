@@ -180,6 +180,20 @@ h1 {
 
   .footer {
     text-align: center;
+    border: none;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .picbig {
+    display: none;
+  }
+ 
+  a[href^="https:"]::before {
+      content: " [" attr(href)"]";
+      color: blue;
   }
 
   .main-content {
@@ -214,10 +228,7 @@ h1 {
     font-weight: bold;
   }
 
-  a[href^="https:"]::before {
-      content: " [" attr(href)"]";
-      color: blue;
-  }
+ 
 
   @page {
     margin: 1.0in;
