@@ -214,7 +214,7 @@ h1 {
     font-weight: bold;
   }
 
-  a[href^="https:"]::after {
+  a[href^="https:"]::before {
       content: " [" attr(href)"]";
       color: blue;
   }
