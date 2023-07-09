@@ -186,6 +186,7 @@ h1 {
   .footer {
     text-align: center;
     border: none;
+    display: none;
   }
 
   .pic {
@@ -226,9 +227,6 @@ h1 {
     text-align: center;
   }
 
-.videoresume {
-  display: none;
-}
 iframe {
       display: none;
   }
