@@ -212,8 +212,8 @@ h1 {
   
   }
 
-  a[href^="http:"]::after{
-    content: " ["attr(href) "]";
+  a[href^="http:"]::after {
+    content: " [" attr(href)"]";
     color: blue;
   }
 
