@@ -191,7 +191,7 @@ h1 {
     display: none;
   }
  
-  a[href^="https:"]::before {
+  a[href^="https:"]::after {
       content: " [" attr(href)"]";
       color: blue;
   }
