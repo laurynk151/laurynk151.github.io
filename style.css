@@ -283,6 +283,12 @@ h1 {
     font-size: 12px;  
     width: 200px;
     height: 200px;
+  }
 
-}
-}
+  img {
+      max-width: 200px;
+      height: auto;
+      text-align: center;
+    }
+
+  }
