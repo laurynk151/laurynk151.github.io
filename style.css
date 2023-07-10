@@ -285,10 +285,15 @@ h1 {
     height: 200px;
   }
 
+  iframe {
+    max-width: 200px;
+    height: auto;
+}
+
   img {
       max-width: 200px;
-      height: auto;
-      text-align: center;
+      height: 200px;
+      justify-content: center;
     }
 
   }
