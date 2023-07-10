@@ -36,6 +36,20 @@ body {
   height: 100vh; /* If you want the grid to fill the viewport height */
 }
 
+.site1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr 1fr 1fr auto;
+  height: 100vh; /* If you want the grid to fill the viewport height */
+}
+
+.site2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh; /* If you want the grid to fill the viewport height */
+}
+
 .page-title,
 .masthead,
 .footer {
