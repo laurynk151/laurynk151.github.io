@@ -248,6 +248,14 @@ h1 {
     grid-row: 3/4;
   }
 
+  .main-content1 {
+    grid-column: 1/2;
+    grid-row: 3/6;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+
   .main-content2 {
     grid-column: 1;
     grid-row:4/6;
@@ -325,6 +333,13 @@ h1 {
   
   }
 
+  .main-content1 {
+    grid-column: 1/2;
+    grid-row: 3/6;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
   .main-content2 {
     grid-column: 1;
     grid-row:4/6;
