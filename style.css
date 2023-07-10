@@ -16,6 +16,7 @@
     text-indent: 50px;
   }
 
+/*reflection page*/
 .paragraph2 {
   text-indent: 50px;
 }
@@ -131,6 +132,7 @@ h1 {
   color:  #663399;
 }
 
+/*for all pages*/
 #paragraph1::first-letter {
   color:#663399;
   font-size: 25px;
