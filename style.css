@@ -305,6 +305,9 @@ h1 {
 
   .main-content {
     font-size: 12px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    }
   }
 
   .main-content2 {
