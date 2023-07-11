@@ -48,7 +48,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr 1fr 1fr  auto;
-  row-gap: 50px;
   height: 50vh; /* If you want the grid to fill the viewport height */
 }
 
