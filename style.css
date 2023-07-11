@@ -360,7 +360,7 @@ h1 {
   } 
   
   .site2 {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr 1fr 1fr  auto;
     height: 100vh; /* If you want the grid to fill the viewport height */
